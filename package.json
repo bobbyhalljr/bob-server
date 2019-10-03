@@ -1,0 +1,28 @@
+{
+  "name": "bob-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbyhalljr/bob-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobbyhalljr/bob-server/issues"
+  },
+  "homepage": "https://github.com/bobbyhalljr/bob-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
